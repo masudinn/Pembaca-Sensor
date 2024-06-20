@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    app:cardCornerRadius="7dp"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    app:cardBackgroundColor="#19994e"
+    app:cardElevation="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingVertical="5dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Title"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:singleLine="true"
+                android:textSize="10dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/strip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text=" | "
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:singleLine="true"
+                android:textSize="10dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/txtTitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Title"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:singleLine="true"
+                android:textSize="10dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <TextView-->
+<!--                android:id="@+id/square1"-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="10dp"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:background="@android:color/black"-->
+<!--                android:singleLine="true"-->
+<!--                android:layout_marginRight="2dp"-->
+<!--                android:textAppearance="?android:attr/textAppearanceSmall" />-->
+<!--            <TextView-->
+<!--                android:id="@+id/item1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:text="Item 1"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@android:color/white"-->
+<!--                android:singleLine="true"-->
+<!--                android:textSize="10dp"-->
+<!--                android:textAppearance="?android:attr/textAppearanceSmall" />-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <TextView-->
+<!--                android:id="@+id/square2"-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="10dp"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:background="@android:color/black"-->
+<!--                android:singleLine="true"-->
+<!--                android:layout_marginRight="2dp"-->
+<!--                android:textAppearance="?android:attr/textAppearanceSmall" />-->
+<!--            <TextView-->
+<!--                android:id="@+id/item2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:text="Item 2"-->
+<!--                android:textColor="@android:color/white"-->
+<!--                android:singleLine="true"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="10dp"-->
+<!--                android:textAppearance="?android:attr/textAppearanceSmall" />-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+<!--            <TextView-->
+<!--                android:id="@+id/square3"-->
+<!--                android:layout_width="10dp"-->
+<!--                android:layout_height="10dp"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:background="@android:color/black"-->
+<!--                android:singleLine="true"-->
+<!--                android:layout_marginRight="2dp"-->
+<!--                android:textAppearance="?android:attr/textAppearanceSmall" />-->
+<!--            <TextView-->
+<!--                android:id="@+id/item3"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:text="Item 3"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@android:color/white"-->
+<!--                android:singleLine="true"-->
+<!--                android:textSize="10dp"-->
+<!--                android:textAppearance="?android:attr/textAppearanceSmall" />-->
+<!--        </LinearLayout>-->
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

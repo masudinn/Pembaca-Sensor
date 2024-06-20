@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "762184913004",
+    "project_id": "firestoreesp32",
+    "storage_bucket": "firestoreesp32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762184913004:android:c16c29bd38555a4b75c849",
+        "android_client_info": {
+          "package_name": "com.instiper.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762184913004-tjg61onnc1ap659mcf7vojlhjjsciq6l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.instiper.myapplication",
+            "certificate_hash": "b0dd92280caf8de19816b12474555e801db3b144"
+          }
+        },
+        {
+          "client_id": "762184913004-p37q7bosgloibn78bhvgiremhq7n1cnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0Mm1du7b2BVkn3y6N83KMEwINagEMl7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762184913004-p37q7bosgloibn78bhvgiremhq7n1cnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

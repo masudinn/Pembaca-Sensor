@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Akuaponik</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="develope_by_inftech_instiper">Develope by <b>IT Academy Instiper</b></string>
+</resources>

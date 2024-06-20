@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/home"
+    android:id="@+id/mobile_navigation">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.instiper.myapplication.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.instiper.myapplication.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile"/>
+
+    <fragment
+        android:id="@+id/info"
+        android:name="com.instiper.myapplication.ui.info.InfoFragment"
+        android:label="Info"
+        tools:layout="@layout/fragment_info"/>
+
+</navigation>
